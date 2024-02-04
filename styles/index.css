@@ -2,15 +2,74 @@ body {
     background-color: #fff;
     margin: 0;
 }
+
+/*Containers*/
 .containers__all {
     display: flex;
+    background-color: #EBC5CE;
     height: 700px;
     width: 1152px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.flex-container {
+.flex-container1 {
     display: flex;
-    background-color: #EBC5CE;
+    background-color: #c58e9a;
+    height: 160px;
+    width: 468px;
+    border-radius: 8px;
+    margin: 10px;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.flex-container2 {
+    display: flex;
+    background-color: #c58e9a;
+    height: 160px;
+    width: 468px;
+    border-radius: 8px;
+    margin: 10px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.flex-container3 {
+    display: flex;
+    background-color: #c58e9a;
+    height: 160px;
+    width: 468px;
+    border-radius: 8px;
+    margin: 10px;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.flex-container4 {
+    display: flex;
+    background-color: #c58e9a;
+    height: 160px;
+    width: 468px;
+    border-radius: 8px;
+    margin: 10px;
+    align-items: stretch;
+    justify-content: center;
+}
+.flex-container5 {
+    display: flex;
+    background-color: #c58e9a;
+    height: 160px;
+    width: 468px;
+    border-radius: 8px;
+    margin: 10px;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.flex-container6     {
+    display: flex;
+    background-color: #c58e9a;
     height: 160px;
     width: 468px;
     border-radius: 8px;
@@ -19,17 +78,15 @@ body {
     justify-content: flex-start;
 }
 
+/*All items*/
 .flex-item {
     display: flex;
-    background-color: #D199A6;
-    height: 78px;
-    width: 78px;
+    background-color: #a86171;
+    min-height: 78px;
+    min-width: 78px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 0px;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
 }
