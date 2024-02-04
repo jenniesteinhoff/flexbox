@@ -1,0 +1,37 @@
+body, html {
+    background-color: #FFE1E8;
+    margin: 20px;
+}
+
+.headbox__all { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    background-color: #C89BA5;
+    border-radius: 10px;
+    height: 160px;
+    width: 468px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.card {
+    background-color: #AD6273;
+}
+
+.left {
+    align-items: left;
+}
+
+.middle {
+    align-items: center;
+}
+
+.right {
+    align-items: right;
+}
