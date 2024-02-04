@@ -1,37 +1,35 @@
-body, html {
-    background-color: #FFE1E8;
-    margin: 20px;
+body {
+    background-color: #fff;
+    margin: 0;
 }
-
-.headbox__all { 
+.containers__all {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    height: 700px;
+    width: 1152px;
 }
 
-.container {
-    background-color: #C89BA5;
-    border-radius: 10px;
+.flex-container {
+    display: flex;
+    background-color: #EBC5CE;
     height: 160px;
     width: 468px;
-    margin-top: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.flex-item {
+    display: flex;
+    background-color: #D199A6;
+    height: 78px;
+    width: 78px;
+    border-radius: 10px;
+    margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-}
-.card {
-    background-color: #AD6273;
-}
-
-.left {
-    align-items: left;
-}
-
-.middle {
-    align-items: center;
-}
-
-.right {
-    align-items: right;
+    margin-left: 20px;
+    margin-right: 0px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
